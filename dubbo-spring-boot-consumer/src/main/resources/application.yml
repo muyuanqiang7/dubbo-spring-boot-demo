@@ -13,7 +13,7 @@ dubbo:
     address: nacos://127.0.0.1:8848
   # 设置超时时间
   consumer:
-    timeout: 4000
+    timeout: 20000
 spring:
   main:
     # 解决Bean重复定义问题
