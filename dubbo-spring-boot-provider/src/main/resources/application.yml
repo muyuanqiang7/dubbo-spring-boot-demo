@@ -11,7 +11,7 @@ dubbo:
     organization: huiztech
   # 配置注册中心
   registry:
-    address: nacos://127.0.0.1:8848
+    address: nacos://127.0.0.1:8848?namespace=f068d719-76fe-4fa3-ac36-bc86466be5d9
   # 设置协议-协议由提供方指定消费方被动接受
   protocol:
     name: dubbo
